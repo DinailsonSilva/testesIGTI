@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+      <head>
+          <title>Meus testes</title>
+          <meta charset="utf-8">
+         <link rel="stylesheet" href="index.css">
+         <script>
+              // adicionando JS na página
+            console.log("Hello Word no head!")
+        </script>
+</head>
+<body>
+    <img width="200"  src="https://www.mediapost.com.br/assets/uploads/2011/11/o-que-e-html.jpg" >
+    <h1 class="texto-header borda paragrafo'" >Teste de Títulos, esse é o tamanho do "h1"</h1>
+    <h2 id="texto2">Teste de Títulos, esse é o tamanho do "h2"</h2>
+    <h3>Teste de Títulos, esse é o tamanho do "h3"</h3>
+    <h4>Teste de Títulos, esse é o tamanho do "h4"</h4>
+    <h5>Teste de Títulos, esse é o tamanho do "h5"</h5>
+    <h6>Teste de Títulos, esse é o tamanho do "h6"</h6>
+    
+      <script>
+          // adicionando JS na página
+          setTimeout(function(){
+              console.log("Passou 1 segundo")
+          }, 1000);
+
+          setTimeout(function(){
+              console.log("Passou 2 segundos")
+          }, 2000);
+
+          document.write("Imprimindo texto com JS")
+      </script>
+
+    <p class="borda paragrafo">Teste de parágrafo utilizando o "p"</p>
+    <p id="paragrafoteste">Logo abaixo teste de link, criando um link para o meu instagram:</p>
+    <a href="https://www.instagram.com/dinailsonsilva/">Ir para o meu instagram :)</a>
+
+    <p>Logo abaixo teste de "Input para caixa de texto":</p>
+    <input type="text">
+
+    <p>Logo abaixo teste de "Input para caixa de números":</p>
+    <input type="number">
+
+    <p class="paragrafo">Logo abaixo teste de Input para  "checkbox":</p>
+    <input id="carros" type="checkbox" id="carro1">
+    <label for="carro1">Uno</label>
+    <input id="carros" type="checkbox" id="carro2">
+    <label for="carro2">Gol</label>
+    
+    <p class="paragrafo">Logo abaixo teste de Input para "radio":</p>
+    <input type="radio" id="masculino" value="masculino" name="sexo">
+    <label for="masculino">Masculino</label>
+    <input type="radio" id="femenino" value="femenino" name="sexo">
+    <label for="femenino">Femenino</label>
+    <input type="radio" id="outros" value="outros" name="sexo">
+    <label for="outros">Outros</label>
+
+    <p>Logo abaixo teste de "select":</p>
+    <select>
+        <option value="Uno">Uno</option>
+        <option value="Gol">Gol</option>
+        <option value="Palio">Palio</option>
+        <option value="Sandero">Sandero</option>
+    </select>
+
+    <p>Logo abaixo teste de "textarea", (caixa de texto maior):</p>
+    <textarea rows="5" cols="20"> Texto inicial </textarea>
+<br>
+<br>
+<br>
+
+    <p>Logo abaixo teste de "button" com "alert":</p>
+              <button type="button" onclick="clickbotao()"> Clique aqui</button>
+<br>
+              <button type="button" onclick="clickbotao2()"> Clique aqui 2</button>
+<br>
+
+              <img id="lampada" src="lampada_desligada.gif">
+<br>
+              <button type="button" onclick="ligarLampada()">Ligar lampada</button>
+              <button type="button" onclick="desligarLampada()">Desligar lampada</button>
+<br>
+<br>
+    <button type="button" onclick="adicionarElemento()"> Adicionar elemento</button>
+    <button type="button" onclick="removerElemento()"> Remover elemento</button>
+    <div id="div-elementos">
+
+
+    </div>
+
+
+    <script>
+        console.log("Hello Word no body!")
+         // adicionando JS na página e  logo abaixo como importar um arquico JS
+    </script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

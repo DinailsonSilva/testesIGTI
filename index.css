@@ -1,0 +1,22 @@
+.texto-header{
+    color: #5f9ea0;
+    background-color: antiquewhite;
+   }
+
+#texto2{
+    color: red
+}
+
+.borda {
+    border: solid 9px #5f9ea0;
+    border-radius: 20px;
+}
+
+.paragrafo{
+    /*margin-top: 30px; 
+     margin-bottom: 30px; 
+     margin-left: 10px; 
+     margin-right: 10px; */
+    margin: 30px 10px 20px 20px; /* Margem externa*/
+    padding: 10px; /*Espaçamento interno*/
+}
